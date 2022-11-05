@@ -1,6 +1,4 @@
 #include <Arduino.h>
-
-
 #define TINY_GSM_MODEM_SIM868
 #define SerialMon Serial
 #define SerialAT Serial1

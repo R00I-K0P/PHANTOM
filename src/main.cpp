@@ -53,9 +53,6 @@ void setup() {
   mqtt.setCallback(mqttCallback);
 }
 
-enum MAINSTATE{WARMUP,SEND};
-MAINSTATE main_state = MAINSTATE::WARMUP;
-unsigned long int timerr = 0;
 void loop() {
     if(network_connect())
       mqtt.loop();  
